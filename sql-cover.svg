@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title">
+  <title id="title">SQL project cover</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#081120"/><stop offset="100%" stop-color="#173860"/></linearGradient>
+  </defs>
+  <rect width="900" height="520" rx="28" fill="url(#bg)"/>
+  <rect x="52" y="54" width="796" height="412" rx="26" fill="#0d1729" stroke="#23456c"/>
+  <rect x="94" y="128" width="198" height="162" rx="22" fill="#10284a" stroke="#355f8f"/>
+  <ellipse cx="194" cy="150" rx="72" ry="20" fill="#60a5fa"/><rect x="122" y="150" width="144" height="70" fill="#60a5fa"/><ellipse cx="194" cy="220" rx="72" ry="20" fill="#3b82f6"/>
+  <rect x="350" y="112" width="426" height="196" rx="22" fill="#0b1423" stroke="#24476e"/>
+  <line x1="394" y1="258" x2="724" y2="258" stroke="#20354e" stroke-width="8"/><line x1="394" y1="224" x2="724" y2="224" stroke="#20354e" stroke-width="8"/><line x1="394" y1="190" x2="724" y2="190" stroke="#20354e" stroke-width="8"/>
+  <polyline points="408,272 470,226 540,238 618,170 706,192" fill="none" stroke="#f97316" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="96" y="360" font-family="Arial, Helvetica, sans-serif" font-size="22" letter-spacing="0.14em" fill="#9eb4d2">DATA ANALYSIS</text>
+  <text x="96" y="414" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700" fill="#f8fbff">SQL Video Games Analysis</text>
+</svg>
