@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title">
+  <title id="title">C# Learning Journey cover</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0b1324"/><stop offset="100%" stop-color="#312e81"/></linearGradient>
+  </defs>
+  <rect width="900" height="520" rx="28" fill="url(#bg)"/>
+  <rect x="70" y="62" width="760" height="396" rx="28" fill="#0d1729" stroke="#3f4f8a"/>
+  <circle cx="116" cy="96" r="8" fill="#fb7185"/><circle cx="142" cy="96" r="8" fill="#f59e0b"/><circle cx="168" cy="96" r="8" fill="#4ade80"/>
+  <text x="110" y="154" font-family="Consolas, monospace" font-size="28" fill="#93c5fd">public class LearningJourney</text>
+  <text x="138" y="198" font-family="Consolas, monospace" font-size="24" fill="#cbd5e1">string[] stack =</text>
+  <text x="168" y="236" font-family="Consolas, monospace" font-size="24" fill="#fcd34d">{ "C#", ".NET",</text>
+  <text x="168" y="274" font-family="Consolas, monospace" font-size="24" fill="#86efac">  "Windows Forms",</text>
+  <text x="168" y="312" font-family="Consolas, monospace" font-size="24" fill="#fca5a5">  "OOP" };</text>
+  <text x="110" y="404" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700" fill="#ffffff">C# Learning Journey</text>
+</svg>

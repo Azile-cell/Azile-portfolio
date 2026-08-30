@@ -417,3 +417,141 @@ body { font-family: Arial, Helvetica, sans-serif; }
   .back-to-top { right: 14px; bottom: 14px; padding: 9px; }
   .back-to-top span { width: 30px; height: 30px; }
 }
+
+/* 2026-08-31 final content and credential refinements */
+.status-pill.complete {
+  background: rgba(76, 175, 80, .12);
+  border: 1px solid rgba(112, 214, 133, .20);
+  color: #c8f3d1;
+}
+
+.skill-symbol {
+  width: 20px;
+  height: 20px;
+  display: inline-grid;
+  place-items: center;
+  font-size: 17px;
+  color: #b9d2ff;
+}
+
+.workflow-visual {
+  min-height: 230px;
+  padding: 18px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 20px;
+  background:
+    radial-gradient(circle at 80% 15%, rgba(77,143,255,.22), transparent 32%),
+    linear-gradient(145deg, #07111f, #0b2038);
+  border: 1px solid rgba(255,255,255,.06);
+}
+.workflow-window {
+  width: min(100%, 520px);
+  border-radius: 16px;
+  overflow: hidden;
+  background: rgba(5,13,24,.88);
+  border: 1px solid rgba(255,255,255,.12);
+  box-shadow: 0 22px 50px rgba(0,0,0,.34);
+}
+.workflow-window-bar {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 12px;
+  border-bottom: 1px solid rgba(255,255,255,.08);
+  color: #dbe9ff;
+  font-size: 12px;
+}
+.workflow-window-bar span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255,255,255,.32);
+}
+.workflow-window-bar b { margin-left: 6px; font-weight: 700; }
+.workflow-preview-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap: 10px;
+  padding: 14px;
+}
+.workflow-preview-grid div {
+  min-height: 78px;
+  padding: 12px;
+  border-radius: 12px;
+  background: rgba(255,255,255,.045);
+  border: 1px solid rgba(255,255,255,.07);
+}
+.workflow-preview-grid strong,
+.workflow-preview-grid small { display: block; }
+.workflow-preview-grid strong { font-size: 12px; }
+.workflow-preview-grid small { margin-top: 7px; color: var(--muted); font-size: 10px; line-height: 1.45; }
+.card-links { display: flex; flex-wrap: wrap; gap: 16px; margin-top: auto; padding-top: 18px; }
+.card-links .card-link { margin-top: 0; padding-top: 0; }
+
+.learning-card {
+  padding: 0;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 86px minmax(0,1fr);
+  align-items: stretch;
+  min-height: 260px;
+}
+.learning-brand {
+  display: grid;
+  place-items: center;
+  font-size: 54px;
+  font-weight: 800;
+  background: linear-gradient(180deg, rgba(77,143,255,.16), rgba(255,138,43,.09));
+  border-right: 1px solid var(--line);
+}
+.google-brand { letter-spacing: -.08em; }
+.google-credential .visual-copy { align-self: center; }
+.google-credential .visual-copy p { line-height: 1.7; }
+.credential-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+.credential-actions .text-link {
+  min-height: 40px;
+  padding: 0 12px;
+  border: 1px solid rgba(255,255,255,.10);
+  background: rgba(255,255,255,.04);
+  border-radius: 12px;
+  font-size: 12px;
+}
+.course-breakdown {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255,255,255,.08);
+  color: var(--muted);
+}
+.course-breakdown summary {
+  cursor: pointer;
+  color: #d8e8ff;
+  font-weight: 700;
+  font-size: 13px;
+}
+.course-breakdown ol { margin: 12px 0 0; padding-left: 20px; }
+.course-breakdown li { margin: 8px 0; line-height: 1.5; }
+.course-breakdown a { color: #bfd7ff; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.cert-list li { display: flex; flex-direction: column; align-items: flex-start; }
+.cert-link {
+  margin-top: 10px;
+  color: #c9dcff;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+}
+.cert-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+.build-note { max-width: 460px; line-height: 1.5; }
+
+@media (min-width: 1160px) {
+  .project-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (max-width: 760px) {
+  .learning-card { grid-template-columns: 1fr; }
+  .learning-brand { min-height: 86px; border-right: 0; border-bottom: 1px solid var(--line); }
+  .credential-actions { display: grid; }
+  .credential-actions .text-link { width: 100%; }
+  .workflow-preview-grid { grid-template-columns: 1fr; }
+}
