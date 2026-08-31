@@ -13,10 +13,10 @@ https://azile-cell.github.io/Azile-portfolio/
 - Microsoft Excel, Word and PowerPoint
 - Git, GitHub, Visual Studio, Visual Studio Code and Jira
 - Python, Microsoft Azure and cloud technologies as developing skills
-- UJ Compass — UJ DevSoc Hackathon 2026 prototype
+- UJ Compass - UJ DevSoc Hackathon 2026 prototype
 - SQL Video Games Analysis
 - C# Learning Journey
-- WorkFlow AI — local-rule workplace productivity prototype
+- WorkFlow AI: local-rule workplace productivity prototype
 - BCom Information Systems education at the University of Johannesburg
 - CAPACITI AI Skills Acceleration Programme (professional development, completed 2026)
 - Google AI Essentials (completed August 2026) with Coursera verification and Credly badge links
