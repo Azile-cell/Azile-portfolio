@@ -1,4 +1,4 @@
-# Azile Gomomo — Personal Portfolio
+# Azile Gomomo - Personal Portfolio
 
 A responsive recruiter-facing portfolio for **Azile Gomomo**, a second-year Bachelor of Commerce in Information Systems student at the University of Johannesburg.
 
