@@ -1,64 +1,32 @@
-# Azile Gomomo - Personal Portfolio
+# Azile Gomomo | Portfolio
 
-A responsive recruiter-facing portfolio for **Azile Gomomo**, a second-year Bachelor of Commerce in Information Systems student at the University of Johannesburg.
+A project-first personal portfolio for Azile Gomomo, a BCom Information Systems student at the University of Johannesburg.
 
-## Live site
+Live site after Azile publishes these files: https://azile-cell.github.io/Azile-portfolio/
 
-https://azile-cell.github.io/Azile-portfolio/
+## What's included
 
-## What this version showcases
+- ResolveIT first, with the **silent 38-second demo**, its actual technologies and a link to the repository. The recording is compressed for the website and its audio removed.
+- Solar Esy, clearly identified as a hackathon **prototype/concept**, with concept artwork rather than an invented deployed product.
+- WorkFlow AI, accurately described as a local-rule-and-template prototype without a live generative AI API.
+- Fikelela, UJ Compass and SQL Video Games Analysis as additional projects; C# Learning Journey is omitted from the main portfolio.
+- A grouped skills section distinguishing project experience from areas of developing knowledge.
+- Hackathons and short About; original image-based Education & credentials and original banner-and-icon Contact layout restored.
 
-- C#, .NET Framework and Windows Forms foundations
-- SQL, Microsoft SQL Server, SSMS and data analysis
-- Microsoft Excel, Word and PowerPoint
-- Git, GitHub, Visual Studio, Visual Studio Code and Jira
-- Python, Microsoft Azure and cloud technologies as developing skills
-- UJ Compass - UJ DevSoc Hackathon 2026 prototype
-- SQL Video Games Analysis
-- C# Learning Journey
-- WorkFlow AI: local-rule workplace productivity prototype
-- BCom Information Systems education at the University of Johannesburg
-- CAPACITI AI Skills Acceleration Programme (professional development, completed 2026)
-- Google AI Essentials (completed August 2026) with Coursera verification and Credly badge links
-- Foundational C# with Microsoft (freeCodeCamp / Microsoft) with public verification link
-- Anthropic AI Fluency for Students with Skilljar public verification
-- DataCamp Intermediate Importing Data in Python with public accomplishment link
-- UJ Artificial Intelligence in the 4IR and Advanced Information Literacy credentials
-- FNB App Academy (in progress)
-- Downloadable CV and professional contact links
+## Website files
 
-## Built with
+- `index.html`: all portfolio content
+- `styles.css`: styling and mobile layouts, extending the existing navy/orange design
+- `script.js`: mobile navigation and active section state
+- `assets/`: image assets, CV and a compressed video
 
-- HTML5
-- CSS3
-- Vanilla JavaScript
-- Devicon CDN for recognizable technology icons
-- GitHub Pages for deployment
+The site is a simple static website. No build command, paid hosting or private keys are needed. The Devicon icon stylesheet comes from a CDN; the site remains readable without it.
 
-## AI-assisted development disclosure
+## Preview and publish
 
-AI tools were used to support ideation, layout, debugging and refinement. The portfolio content, project claims, testing, customization and deployment were reviewed and managed by Azile. AI-generated suggestions were not treated as automatically correct; the final site was checked against the underlying projects and available credentials.
+Open `index.html` to preview locally. For the most reliable video playback, open the folder in VS Code and use a local server (such as Live Server) or publish to GitHub Pages.
 
-## Accuracy decisions in this release
+See `BEFORE_YOU_PUBLISH.md` for checks and GitHub Pages instructions.
 
-- Google AI Essentials is marked **completed**, not in progress.
-- CAPACITI is shown as **professional development**, not employment.
-- WorkFlow AI is described as using **local rule-based processing and structured templates**, not as running a proprietary AI model or requiring a paid API.
-- Python and Microsoft Azure are shown as **currently developing** skills.
-- FNB App Academy is shown as **in progress**, not completed.
-- Only the UJ credentials currently backed by available certificate records are shown; Excel for the Workplace, Word for the Workplace and Presentation for the Workplace are temporarily omitted until the certificates can be retrieved.
-- Anthropic AI Fluency for Students and the DataCamp Python course now use genuine public verification/accomplishment links.
-- The freeCodeCamp/Microsoft C# credential is not described as a Microsoft role-based certification.
-
-## Run locally
-
-Keep `index.html`, `styles.css`, `script.js` and the `assets` folder together. Open `index.html` directly, or serve the folder with a local web server.
-
-## Deploy to GitHub Pages
-
-Upload the contents of this folder to the root of the `Azile-portfolio` repository, commit the changes, then make sure GitHub Pages is configured to deploy from the repository's main branch/root.
-
-## Contact
-
-- GitHub: https://github.com/Azile-cell
-- LinkedIn: https://www.linkedin.com/in/azile-gomomo-520b33366
+## September approval round
+Original cover restored. DP-900 image and completed status corrected. Google AI Essentials banner and original-style card added. NEMISA Power BI credential relabelled correctly. Original Education and Contact remain.

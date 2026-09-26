@@ -1,22 +1,21 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Portfolio of Azile Gomomo, a second-year BCom Information Systems student at the University of Johannesburg building practical skills across C#, SQL, data analysis, software development and cloud technologies." />
-  <meta name="robots" content="index, follow" />
-  <meta property="og:title" content="Azile Gomomo — Information Systems Portfolio" />
-  <meta property="og:description" content="Projects, skills and verified learning across software, SQL, data analysis and cloud technologies." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://azile-cell.github.io/Azile-portfolio/" />
-  <meta name="theme-color" content="#071120" />
-  <title>Azile Gomomo — Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Azile Gomomo's portfolio: C#, ASP.NET Core and database projects, technical hackathons and BCom Information Systems study at the University of Johannesburg.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Azile Gomomo | Software & Database Projects">
+  <meta property="og:description" content="Explore ResolveIT, Solar Esy, WorkFlow AI and other projects by Azile Gomomo.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://azile-cell.github.io/Azile-portfolio/">
+  <meta name="theme-color" content="#071120">
+  <title>Azile Gomomo | Projects & Experience</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-
   <header class="site-header" id="site-header">
     <nav class="nav shell" aria-label="Primary navigation">
       <a class="brand" href="#top" aria-label="Azile Gomomo — back to top">
@@ -33,10 +32,11 @@
       </button>
 
       <ul class="nav-links" id="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#credentials">Credentials</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Hackathons</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#credentials">Education</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
 
@@ -45,7 +45,7 @@
   </header>
 
   <main id="main">
-    <section class="hero" id="top">
+    <section class="hero" id="top" aria-label="Introduction and career direction">
       <div class="hero-backdrop"></div>
       <div class="shell hero-grid">
         <div class="hero-copy reveal">
@@ -67,17 +67,17 @@
 
           <dl class="hero-meta">
             <div><dt>Institution</dt><dd>University of Johannesburg</dd></div>
-            <div><dt>Focus</dt><dd>C# · SQL · Data Analysis</dd></div>
-            <div><dt>Open to</dt><dd>Internships · Learnerships · Hackathons</dd></div>
+            <div><dt>Focus</dt><dd>C# · ASP.NET Core · SQL · Data Analysis</dd></div>
+            <div><dt>Open to</dt><dd>Internships · Hackathons · Collaborations</dd></div>
           </dl>
         </div>
 
         <aside class="hero-aside reveal" aria-label="Portfolio direction">
           <div class="direction-card">
             <div class="direction-orb" aria-hidden="true">
-              <i class="devicon-python-plain colored"></i>
-              <i class="devicon-azuresqldatabase-plain colored"></i>
-              <i class="devicon-azure-plain colored"></i>
+              <img class="orb-icon orb-python" src="./assets/python-mark.svg" alt="" />
+              <img class="orb-icon orb-sql" src="./assets/sql-mark.svg" alt="" />
+              <img class="orb-icon orb-azure" src="./assets/azure-mark.svg" alt="" />
             </div>
             <span class="mini-label">Long-term direction</span>
             <h2>Growing towards Data Science</h2>
@@ -86,12 +86,14 @@
           <div class="hero-cards">
             <article class="mini-highlight">
               <span class="mini-label">Featured project</span>
-              <h2>UJ Compass</h2>
-              <p>Student-support prototype built during the UJ DevSoc Hackathon 2026.</p>
+              <h2>ResolveIT</h2>
+              <p>My first ASP.NET Core web application. 
+              <a href="#resolveit"> See the project ↗</a>
+              </p>
             </article>
             <article class="mini-highlight accent">
               <span class="mini-label">Currently learning</span>
-              <h2>Python · Azure</h2>
+              <h2>Python · Power BI · AWS</h2>
               <p>Expanding my data and cloud foundation through active learning programmes.</p>
             </article>
           </div>
@@ -99,55 +101,110 @@
       </div>
     </section>
 
-    <section class="section shell portfolio-section" id="about">
-      <div class="section-intro reveal">
-        <span class="section-number">01</span>
-        <h2>About</h2>
-        <p>Information Systems at the intersection of business, technology and data.</p>
-      </div>
+    <section class="section shell portfolio-section" id="projects" aria-labelledby="projects-title">
+      <div class="section-intro reveal"><span class="section-number">01 / WORK</span><h2 id="projects-title">Projects</h2><p>What I built, what each project does and the technologies involved.</p></div>
       <div class="section-body">
-        <div class="glass-card about-main reveal">
-          <p class="lead">I’m a second-year Bachelor of Commerce in Information Systems student at the University of Johannesburg, with interests in software development, databases, data analysis and cloud technologies.</p>
-          <p>My current technical foundation includes C#, .NET, SQL, Microsoft SQL Server, Microsoft Excel, Git/GitHub and data analysis. I’m also developing my skills in Python, Microsoft Azure and cloud technologies through projects and technical learning.</p>
-          <p>My project experience includes C# programming projects, SQL data analysis, hackathon prototypes and AI-assisted productivity solutions. My long-term goal is to grow <strong>towards Data Science</strong> while remaining open to opportunities across software, data, databases, cloud and information systems.</p>
+        <article class="featured-project glass-card reveal" id="resolveit">
+          <div class="featured-topline"><span class="topline-accent">FEATURED PROJECT</span><span>Independent project</span><span>Working local application</span></div>
+          <div class="featured-layout">
+            <div class="featured-video-area">
+              <video class="resolveit-video" controls playsinline preload="none" muted poster="./assets/resolveit-poster.jpg" aria-label="Silent, 38-second screen recording demonstrating the ResolveIT ticket management application">
+                <source src="./assets/resolveit-demo.mp4" type="video/mp4">Your browser does not support the video. <a href="./assets/resolveit-demo.mp4">Open the demo file</a>.
+              </video>
+              <div class="video-note"><span class="play-symbol" aria-hidden="true">▶</span><span>38-second demo <span aria-hidden="true">·</span> no audio</span></div>
+            </div>
+            <div class="featured-content">
+              <p class="project-type">C# / FULL-STACK WEB APPLICATION</p>
+              <h3>ResolveIT</h3>
+              <p class="project-subtitle">IT Support Ticket Management System</p>
+              <p>After seeing a campus post about a Wi-Fi issue, I wanted to explore how support requests could be recorded and tracked in one place. I built ResolveIT with ASP.NET Core MVC, learning the framework as I developed my first C# web application.</p>
+              <ul class="feature-list compact-features">
+                <li>Create, view, edit and delete support tickets</li>
+                <li>Set priorities and update ticket statuses</li>
+                <li>Store ticket records using Entity Framework Core and SQLite</li>
+              </ul>
+              <ul class="stack-pills compact" aria-label="ResolveIT technologies"><li>C#</li><li>ASP.NET Core MVC</li><li>EF Core</li><li>SQLite</li><li>Razor</li><li>Bootstrap</li></ul>
+              <div class="hero-actions project-actions"><a class="btn btn-primary" href="https://github.com/Azile-cell/Resolve-IT" target="_blank" rel="noopener noreferrer">Source code ↗</a><a class="btn btn-secondary" href="./assets/resolveit-demo.mp4" target="_blank" rel="noopener noreferrer">Open demo ↗</a></div>
+              <p class="project-disclaimer">Currently runs locally; not presented as a publicly deployed app.</p>
+            </div>
+          </div>
+        </article>
+
+        <div class="project-grid major-project-grid">
+          <article class="glass-card project-card major-project reveal">
+            <div class="project-media solar-media"><img src="./assets/solar-esy-concept.jpg" alt="Solar Esy concept artwork illustrating its household energy dashboard; not a live deployed screenshot" loading="lazy"><span class="media-label">Concept visual</span></div>
+            <p class="project-type">CISCO × WETHINKCODE_ HACKATHON / TEAM</p>
+            <h3>Solar Esy</h3>
+            <p class="project-subtitle">AI-assisted community energy prototype</p>
+            <p>Our hackathon concept explored how households could identify energy shortfalls, receive saving recommendations and simulate matches with nearby solar surplus. I worked on UI/UX, system architecture, the planning flow, prototype development and the pitch.</p>
+            <p class="project-note">Energy transfers, metering and settlement were simulated. This is not a live electricity-trading platform.</p>
+            <ul class="stack-pills compact"><li>UI/UX</li><li>System design</li><li>Energy-planning logic</li><li>Hackathon prototype</li></ul>
+            <a class="card-link" href="./assets/solar-esy-concept.jpg" target="_blank" rel="noopener noreferrer">View concept visual ↗</a>
+          </article>
+
+          <article class="glass-card project-card major-project reveal">
+            <div class="project-media workflow-visual" aria-label="Illustration of WorkFlow AI's workplace productivity features">
+              <div class="workflow-window"><div class="workflow-window-bar"><span></span><span></span><span></span><b>WorkFlow AI</b></div>
+                <div class="workflow-preview-grid"><div><strong>Smart Workspace</strong><small>Organise workplace notes</small></div><div><strong>Email</strong><small>Structured email drafting</small></div><div><strong>Meetings</strong><small>Key points and action items</small></div><div><strong>Tasks</strong><small>Prioritise next steps</small></div></div></div>
+            </div>
+            <p class="project-type">CAPACITI AI SKILLS PROGRAMME</p>
+            <h3>WorkFlow AI</h3>
+            <p class="project-subtitle">Workplace productivity prototype</p>
+            <p>A Next.js prototype that helps structure emails, meeting notes, tasks and research. The current version uses local rules and templates rather than an external generative AI model or paid API.</p>
+            <ul class="stack-pills compact"><li>Next.js</li><li>React</li><li>TypeScript</li><li>Tailwind CSS</li><li>Local rules</li></ul>
+            <div class="card-links"><a class="card-link" href="https://ai-productivity-assistant-ebon.vercel.app/" target="_blank" rel="noopener noreferrer">Live prototype ↗</a><a class="card-link" href="https://github.com/Azile-cell/AI-Productivity-Assistant" target="_blank" rel="noopener noreferrer">Source code ↗</a></div>
+          </article>
         </div>
-        <div class="focus-grid">
-          <article class="glass-card reveal"><h3>Software development</h3><p>C#, .NET Framework and Windows Forms, with basic HTML, CSS and JavaScript used in practical projects.</p></article>
-          <article class="glass-card reveal"><h3>Databases &amp; SQL</h3><p>Working with relational data, Microsoft SQL Server, SSMS and SQL queries to answer practical questions.</p></article>
-          <article class="glass-card reveal"><h3>Data analysis</h3><p>Exploring data, identifying patterns and turning raw information into findings that people can use.</p></article>
-          <article class="glass-card reveal"><h3>Problem solving</h3><p>Approaching projects with curiosity, structure and a focus on solutions that are actually usable.</p></article>
+
+        <h3 class="subsection-heading">More projects</h3>
+        <div class="project-grid smaller-project-grid">
+          <article class="glass-card project-card reveal">
+            <div class="project-media fikelela-art" role="img" aria-label="Illustration for the Fikelela accessibility-focused course finder"><div class="fikelela-frame"><span>Fikelela</span><div class="fikelela-search" aria-hidden="true">Find learning opportunities <b>⌕</b></div><div class="fikelela-filters" aria-hidden="true"><i>Low data</i><i>Accessible</i><i>Free</i></div><div class="fikelela-lines" aria-hidden="true"><b></b><b></b></div></div><span class="media-label">Project illustration</span></div>
+            <p class="project-type">GEEKULCHA HACKATHON / ACCESSIBILITY</p><h3>Fikelela</h3>
+            <p>An accessible learning-discovery prototype designed to help people find free training that suits their access, device and data needs. Includes keyboard-friendly interactions and filters.</p>
+            <ul class="stack-pills compact"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Accessibility</li></ul>
+            <a class="card-link" href="https://github.com/Azile-cell/-Fikelela" target="_blank" rel="noopener noreferrer">View repository ↗</a>
+          </article>
+          <article class="glass-card project-card reveal">
+            <div class="project-media"><img src="./assets/uj-compass-dashboard.png" alt="UJ Compass student-support prototype dashboard" loading="lazy"></div>
+            <p class="project-type">UJ DEVSOC HACKATHON / TEAM</p><h3>UJ Compass</h3>
+            <p>A student-support prototype exploring clearer routes to campus services, digital queues and accessible support information.</p>
+            <ul class="stack-pills compact"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+            <div class="card-links"><a class="card-link" href="https://azile-cell.github.io/UJ-Compass/" target="_blank" rel="noopener noreferrer">View prototype ↗</a><a class="card-link" href="https://github.com/Azile-cell/UJ-Compass" target="_blank" rel="noopener noreferrer">Source code ↗</a></div>
+          </article>
+          <article class="glass-card project-card reveal">
+            <div class="project-media sql-art"><img src="./assets/sql-cover.svg" alt="Illustrative cover for SQL Video Games Analysis" loading="lazy"></div>
+            <p class="project-type">SQL / DATA ANALYSIS</p><h3>SQL Video Games Analysis</h3>
+            <p>Explored a video-games dataset using joins, grouping, aggregates and sorting to examine release, sales and score patterns.</p>
+            <ul class="stack-pills compact"><li>SQL</li><li>Data analysis</li></ul>
+            <a class="card-link" href="https://github.com/Azile-cell/-datacamp-sql-video-games-project" target="_blank" rel="noopener noreferrer">View repository ↗</a>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="section shell portfolio-section" id="skills">
-      <div class="section-intro reveal">
-        <span class="section-number">02</span>
-        <h2>Skills</h2>
-        <p>Technical foundations, tools and the areas I am actively growing.</p>
-      </div>
+    <section class="section shell portfolio-section" id="skills" aria-labelledby="skills-title">
+      <div class="section-intro reveal"><span class="section-number">02 / TOOLKIT</span><h2 id="skills-title">Skills &amp; tools</h2><p>Grouped by how I've used them. Project experience doesn't mean expert-level proficiency.</p></div>
       <div class="section-body skills-layout">
         <article class="glass-card reveal">
           <div class="card-heading"><h3>Programming &amp; development</h3></div>
           <ul class="icon-tag-list">
             <li><i class="devicon-csharp-plain colored"></i><span>C#</span></li>
+            <li><i class="devicon-python-plain colored" aria-hidden="true"></i>Python</li>
             <li><i class="devicon-dot-net-plain colored"></i><span>.NET Framework</span></li>
-            <li><i class="devicon-windows8-original colored"></i><span>Windows Forms</span></li>
-            <li><i class="devicon-html5-plain colored"></i><span>Basic HTML</span></li>
-            <li><i class="devicon-css3-plain colored"></i><span>Basic CSS</span></li>
-            <li><i class="devicon-javascript-plain colored"></i><span>Basic JavaScript</span></li>
+            
           </ul>
         </article>
 
         <article class="glass-card reveal">
-          <div class="card-heading"><h3>Databases &amp; data</h3></div>
+          <div class="card-heading"><h3>Databases &amp; Cloud data</h3></div>
           <ul class="icon-tag-list">
             <li><i class="devicon-azuresqldatabase-plain colored"></i><span>SQL</span></li>
-            <li><i class="devicon-microsoftsqlserver-plain colored"></i><span>Microsoft SQL Server</span></li>
             <li><i class="devicon-azuresqldatabase-plain colored"></i><span>SSMS</span></li>
-            <li><i class="devicon-database-plain"></i><span>Database Concepts</span></li>
-            <li><i class="devicon-pandas-original colored"></i><span>Data Analysis</span></li>
-            <li><i class="devicon-microsoftsqlserver-plain colored"></i><span>SQL Queries</span></li>
+            <li><i class="devicon-azure-plain colored"></i><span>Microsoft Azure</span></li>
+            <li><span class="data-analysis-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M4 19h16M6.5 16V9.5M11 16V5M15.5 16v-4.5M20 16V7.5"/></svg></span><span>Data Analysis</span></li>
+            <li>Cloud computing</li>
+            <li>Data visualisation</li> 
           </ul>
         </article>
 
@@ -162,6 +219,29 @@
           </ul>
         </article>
 
+        <article class="glass-card skill-card reveal">
+          <div class="card-heading"><h3>Web - project experience</h3></div>
+          <ul class="icon-tag-list">
+            <li><i class="devicon-html5-plain colored"></i><span>HTML</span></li>
+            <li><i class="devicon-css3-plain colored"></i><span>CSS</span></li>
+            <li><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></li>
+            <li><i class="devicon-typescript-plain colored"></i><span>TypeScript</span></li>
+            <li><i class="devicon-react-original colored"></i><span>React</span></li>
+            <li>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
+                class="nextjs-icon"
+                alt=""
+              >
+              <span>Next.js</span>
+            </li>
+
+            <li><i class="devicon-bootstrap-plain colored"></i><span>Bootstrap</span></li>
+          </ul>
+          <p class="skill-footnote">Practical exposure through projects; continuing to build confidence with frontend technologies.</p>
+        </article>
+
+
         <article class="glass-card reveal">
           <div class="card-heading"><h3>Productivity &amp; workplace tools</h3></div>
           <ul class="icon-tag-list office-tools">
@@ -172,124 +252,38 @@
         </article>
 
         <article class="glass-card reveal">
-          <div class="card-heading split"><h3>Currently developing</h3><span>active learning</span></div>
-          <ul class="icon-tag-list">
-            <li><i class="devicon-python-plain colored"></i><span>Python</span></li>
-            <li><i class="devicon-azure-plain colored"></i><span>Microsoft Azure</span></li>
-            <li><span class="skill-symbol" aria-hidden="true">☁</span><span>Cloud Technologies</span></li>
-          </ul>
-        </article>
-
-        <article class="glass-card reveal">
           <div class="card-heading split"><h3>Professional strengths</h3><span>people + process</span></div>
           <ul class="soft-list">
-            <li>Problem solving</li>
-            <li>Teamwork</li>
+            <li>Problem-solving</li>
+            <li>Self-directed learning</li>
+            <li>Team collaboration</li>
+            <li>Research &amp; analysis</li>
             <li>Communication</li>
-            <li>Research</li>
-            <li>Presentation</li>
-            <li>Critical thinking</li>
-            <li>Time management</li>
+            <li>Adaptability</li>
+            <li>Project planning</li>
             <li>Attention to detail</li>
           </ul>
         </article>
+    </section>
+
+    <section class="section shell portfolio-section" id="experience" aria-labelledby="experience-title">
+      <div class="section-intro reveal"><span class="section-number">03 / PARTICIPATION</span><h2 id="experience-title">Hackathons</h2><p>Hands-on challenges that gave me opportunities to work independently and in teams.</p></div>
+      <div class="section-body experience-grid">
+        <article class="glass-card experience-card reveal"><span class="experience-year">2026 · Team</span><h3>Cisco × WeThinkCode_</h3><p class="experience-label">She Builds Tomorrow Hackathon</p><p>Worked with my team on Solar Esy for the Smart &amp; Sustainable Futures track. Contributed to problem research, UI/UX, system architecture, prototype development and presenting our solution.</p><a href="#projects">See Solar Esy ↑</a></article>
+        <article class="glass-card experience-card reveal"><span class="experience-year">2026 · Solo</span><h3>Entelect Hack&lt;IT&gt;</h3><p class="experience-label">Community Cup</p><p>Built and tested a C# challenge solution independently, using evaluator feedback to experiment with improvements.</p></article>
+        <article class="glass-card experience-card reveal"><span class="experience-year">2026 · Hackathon prototype</span><h3>Geekulcha Annual Hackathon</h3><p class="experience-label">Localised Self-Learning Experiences</p><p>Worked on Fikelela, focusing on accessible learning discovery for people with different devices, connectivity and accessibility needs.</p></article>
+        <article class="glass-card experience-card reveal"><span class="experience-year">2026 · Team</span><h3>UJ DevSoc Hackathon</h3><p class="experience-label">Team Grootman Hacks</p><p>Collaborated on UJ Compass, a student-support prototype exploring easier access to student services and information.</p></article>
       </div>
     </section>
 
-    <section class="section shell portfolio-section" id="projects">
-      <div class="section-intro reveal">
-        <span class="section-number">03</span>
-        <h2>Projects</h2>
-        <p>Selected work that shows how I learn, build and solve practical problems.</p>
-      </div>
-      <div class="section-body">
-        <article class="featured-project glass-card reveal">
-          <div class="featured-topline"><span>Featured</span><span>UJ DevSoc Hackathon 2026</span><span>Team Grootman Hacks</span></div>
-          <div class="featured-layout">
-            <div class="project-media large">
-              <img src="./assets/uj-compass-dashboard.png" alt="UJ Compass student support dashboard mockup" />
-            </div>
-            <div class="featured-content">
-              <div class="title-row">
-                <h3>UJ Compass</h3>
-                <span>Hackathon prototype</span>
-              </div>
-              <p>UJ Compass is a student-support prototype created to help students find the right support channel quickly, join digital queues, and access student-service concepts including transport information and accessibility support through a cleaner, easier experience.</p>
-              <div class="project-columns">
-                <div>
-                  <h4>Key features</h4>
-                  <ul class="feature-list">
-                    <li>Smart support routing</li>
-                    <li>Trackable support requests</li>
-                    <li>Digital queue flow</li>
-                    <li>Campus transport information concept</li>
-                    <li>Accessibility-focused design</li>
-                  </ul>
-                </div>
-                <div>
-                  <h4>Built with</h4>
-                  <ul class="stack-pills">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="hero-actions project-actions">
-                <a class="btn btn-primary" href="https://azile-cell.github.io/UJ-Compass/" target="_blank" rel="noopener noreferrer">View live prototype</a>
-                <a class="btn btn-secondary" href="https://github.com/Azile-cell/UJ-Compass" target="_blank" rel="noopener noreferrer">View GitHub repo</a>
-              </div>
-            </div>
-          </div>
-        </article>
-
-        <div class="project-grid">
-          <article class="glass-card project-card reveal">
-            <div class="project-media"><img src="./assets/sql-cover.svg" alt="Illustrative cover for SQL Video Games Analysis" /></div>
-            <p class="project-type">Data analysis</p>
-            <h3>SQL Video Games Analysis</h3>
-            <p>A SQL exploration of a video games dataset using joins, grouping, aggregates and sorting to identify release, sales and score patterns.</p>
-            <ul class="stack-pills compact"><li>SQL</li><li>Databases</li><li>Data Analysis</li></ul>
-            <a class="card-link" href="https://github.com/Azile-cell/-datacamp-sql-video-games-project" target="_blank" rel="noopener noreferrer">View project ↗</a>
-          </article>
-
-          <article class="glass-card project-card reveal">
-            <div class="project-media"><img src="./assets/csharp-cover.svg" alt="Illustrative cover for C# Learning Journey" /></div>
-            <p class="project-type">Software development</p>
-            <h3>C# Learning Journey</h3>
-            <p>A growing set of C# exercises and small applications focused on programming fundamentals, OOP concepts, file handling and Windows Forms.</p>
-            <ul class="stack-pills compact"><li>C#</li><li>.NET</li><li>Windows Forms</li></ul>
-            <a class="card-link" href="https://github.com/Azile-cell/csharp-learning-journey" target="_blank" rel="noopener noreferrer">View project ↗</a>
-          </article>
-
-          <article class="glass-card project-card reveal">
-            <div class="project-media workflow-visual" aria-label="WorkFlow AI workplace productivity assistant visual">
-              <div class="workflow-window">
-                <div class="workflow-window-bar"><span></span><span></span><span></span><b>WorkFlow AI</b></div>
-                <div class="workflow-preview-grid">
-                  <div><strong>Smart Workspace</strong><small>Organise messy workplace notes</small></div>
-                  <div><strong>Email</strong><small>Structured draft support</small></div>
-                  <div><strong>Meetings</strong><small>Key points &amp; action items</small></div>
-                  <div><strong>Tasks</strong><small>Priority-based planning</small></div>
-                </div>
-              </div>
-            </div>
-            <p class="project-type">AI-assisted product development</p>
-            <h3>WorkFlow AI</h3>
-            <p>A workplace productivity assistant prototype developed during CAPACITI. The current version uses transparent local rule-based processing and structured templates, with no paid external AI API required.</p>
-            <ul class="stack-pills compact"><li>Next.js</li><li>TypeScript</li><li>Vercel</li><li>Responsible AI</li></ul>
-            <div class="card-links">
-              <a class="card-link" href="https://ai-productivity-assistant-ebon.vercel.app" target="_blank" rel="noopener noreferrer">Live prototype ↗</a>
-              <a class="card-link" href="https://github.com/Azile-cell/AI-Productivity-Assistant" target="_blank" rel="noopener noreferrer">Source code ↗</a>
-            </div>
-          </article>
-        </div>
-      </div>
+    <section class="section shell portfolio-section" id="about" aria-labelledby="about-title">
+      <div class="section-intro reveal"><span class="section-number">04 / BACKGROUND</span><h2 id="about-title">About me</h2><p>A little about how I approach learning and building.</p></div>
+      <div class="section-body"><article class="glass-card about-main short-about reveal"><p class="lead">I’m a BCom Information Systems student at the University of Johannesburg, interested in software development, databases, data analysis and cloud technologies. My long-term direction is towards <strong>Data Science</strong>.</p><p>ResolveIT was my first ASP.NET Core project. I learned the framework through Microsoft Learn while building the application over more than four weeks. Hackathons and independent projects have also given me experience working through ideas, designing prototypes and presenting solutions.</p></article></div>
     </section>
 
     <section class="section shell portfolio-section" id="credentials">
       <div class="section-intro reveal">
-        <span class="section-number">04</span>
+        <span class="section-number">05 / EDUCATION</span>
         <h2>Education &amp; credentials</h2>
         <p>Formal study, professional development and certifications in progress or completed.</p>
       </div>
@@ -301,7 +295,7 @@
           <div class="education-mobile-copy">
             <span class="status-pill">In progress</span>
             <h3>Bachelor of Commerce in Information Systems</h3>
-            <p>University of Johannesburg · Second year · 2025 — Expected 2027</p>
+            <p>University of Johannesburg · Second year · 2025 - Expected 2027</p>
           </div>
         </article>
 
@@ -312,7 +306,21 @@
               <div class="provider-logo capaciti-logo"><img src="./assets/capaciti-logo.png" alt="CAPACITI logo" /></div>
               <span class="status-pill complete">Completed · 2026</span>
               <h3>AI Skills Acceleration Programme</h3>
-              <p>CAPACITI · Professional development</p>
+
+
+              <p>CAPACITI · 5-Day Professional Development Programme</p>
+
+              <p>
+                 Gained practical exposure to Generative AI,
+                 responsible AI practices and AI tools for
+                 improving workplace productivity.
+              </p>
+
+              <p>
+                 During the programme, I developed my professional
+                 portfolio, built WorkFlow AI and completed
+                Google AI Essentials.
+              </p>
             </div>
           </article>
 
@@ -321,9 +329,21 @@
             <div class="visual-copy"><span class="status-pill">In progress</span><h3>Introduction to Programming with Python (CS50P)</h3><p>Harvard / CS50</p></div>
           </article>
 
-          <article class="glass-card visual-card reveal">
-            <img src="./assets/azure-data-fundamentals.png" alt="Azure Data Fundamentals learning graphic" />
-            <div class="visual-copy"><span class="status-pill">In progress</span><h3>Azure Data Fundamentals</h3><p>Microsoft Azure · DP-900 learning</p></div>
+          <article class="glass-card visual-card azure-credential reveal">
+            <img src="./assets/azure-data-fundamentals-completed.png" alt="Microsoft Azure Data Fundamentals - Completed" />
+            <div class="visual-copy">
+              <span class="status-pill complete">Completed</span>
+              <h3>Azure Data Fundamentals (DP-900)</h3>
+              <p>Microsoft credential</p>
+               
+              <a class="cert-link"
+                 href="https://learn.microsoft.com/api/credentials/share/en-us/Azile-9182/31FED89C7DCAC98D?sharingId=9C68094976C46F96"
+                 target="_blank"
+                 rel="noopener noreferrer">
+                 Verify Certificate ↗
+              </a>
+
+            </div>
           </article>
 
           <article class="glass-card visual-card reveal">
@@ -331,8 +351,8 @@
             <div class="visual-copy"><span class="status-pill">In progress</span><h3>FNB App Academy</h3><p>Application development learning programme</p></div>
           </article>
 
-          <article class="glass-card learning-card google-credential reveal">
-            <div class="learning-brand google-brand" aria-hidden="true">G</div>
+          <article class="glass-card visual-card google-credential reveal">
+            <img src="./assets/google-ai-essentials.svg" alt="Google AI Essentials graphic, with the multicolour Google G mark" loading="lazy" />
             <div class="visual-copy">
               <span class="status-pill complete">Completed · Aug 2026</span>
               <h3>Google AI Essentials</h3>
@@ -358,6 +378,16 @@
         <article class="glass-card certifications reveal">
           <div class="card-heading"><h3>Certifications</h3></div>
           <ul class="cert-list">
+            <li>
+              <strong>Power BI Data Analyst (PL-300) - NEMISA</strong>
+              <span>NEMISA training certificate · Not yet a Microsoft certification</span>
+              <a class="cert-link"
+                 href="./assets/nemisa-powerbi-certificate.pdf"
+                 target="_blank"
+                 rel="noopener noreferrer">
+                 View Certificate ↗
+              </a>
+            </li>
             <li>
               <strong>Foundational C# with Microsoft</strong>
               <span>freeCodeCamp · Microsoft · Aug 2026</span>
@@ -386,9 +416,9 @@
       </div>
     </section>
 
-    <section class="section shell contact-section" id="contact">
+    <section class="section shell contact-section original-contact" id="contact">
       <div class="section-intro reveal">
-        <span class="section-number">05</span>
+        <span class="section-number">06 / CONTACT</span>
         <h2>Contact</h2>
         <p>Open to professional opportunities, collaboration and conversation.</p>
       </div>
@@ -398,7 +428,7 @@
             <img src="./assets/contact-banner.png" alt="Contact banner illustration" />
           </div>
           <div class="contact-content">
-            <p class="lead">Open to internships, learnerships, hackathons and collaborative opportunities across software, data, databases, cloud and information systems.</p>
+            <p class="lead">Open to internships, hackathons and collaborative opportunities across software, data, databases, cloud and information systems.</p>
             <a class="email-link" href="mailto:gomomoazile68@gmail.com">gomomoazile68@gmail.com</a>
             <div class="contact-links icon-contact-links">
               <a href="https://github.com/Azile-cell" target="_blank" rel="noopener noreferrer">
@@ -413,8 +443,8 @@
               </a>
             </div>
             <div class="footer-bottom">
-              <p>Azile Gomomo — Johannesburg, South Africa</p>
-              <span class="build-note">Portfolio content, testing, customization and deployment reviewed and managed by Azile.</span>
+              <p>Azile Gomomo @ Johannesburg, South Africa</p>
+              <span class="build-note">Portfolio content, debugging, testing, customization and deployment reviewed and managed by Azile.</span>
               <a href="#top">Back to top</a>
             </div>
           </div>
@@ -422,9 +452,41 @@
       </div>
     </section>
   </main>
-
   <a class="back-to-top" href="#top" aria-label="Back to top"><span aria-hidden="true">↑</span><strong>Back to top</strong></a>
+  <script>
+const header = document.getElementById('site-header');
+const toggle = document.querySelector('.menu-toggle');
+const navLinks = document.getElementById('nav-links');
+const links = [...document.querySelectorAll('.nav-links a')];
 
-  <script src="./script.js"></script>
+function setHeaderState() {
+  header.classList.toggle('scrolled', window.scrollY > 20);
+}
+setHeaderState();
+window.addEventListener('scroll', setHeaderState, { passive: true });
+
+toggle?.addEventListener('click', () => {
+  const open = navLinks.classList.toggle('open');
+  toggle.setAttribute('aria-expanded', String(open));
+});
+
+links.forEach((link) => link.addEventListener('click', () => {
+  navLinks.classList.remove('open');
+  toggle?.setAttribute('aria-expanded', 'false');
+}));
+
+const sections = links.map((link) => document.querySelector(link.getAttribute('href'))).filter(Boolean);
+const activeObserver = new IntersectionObserver((entries) => {
+  const current = entries.filter((entry) => entry.isIntersecting)
+    .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
+  if (!current) return;
+  links.forEach((link) => {
+    const active = link.getAttribute('href') === `#${current.target.id}`;
+    link.classList.toggle('active', active);
+  });
+}, { rootMargin: '-20% 0px -60% 0px' });
+sections.forEach((section) => activeObserver.observe(section));
+
+</script>
 </body>
 </html>
