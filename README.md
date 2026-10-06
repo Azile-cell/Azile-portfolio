@@ -67,7 +67,7 @@ WorkFlow AI helps structure workplace activities such as emails, meeting notes, 
 ## More Projects
 
 ### Fikelela
-Accessibility-focused learning discovery prototype developed for the Geekulcha Annual Hackathon.
+Accessibility-focused learning discovery prototype developed for the Geekulcha Annual Hackathon admission.
 
 Designed to help learners find free training that suits their accessibility, device and data requirements.
 
