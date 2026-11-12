@@ -22,13 +22,13 @@ I am currently strengthening my skills in **Python, cloud technologies and busin
 
 ## Experience
 
-### Data Visualization Trainee — Excelerate
-**Remote | 5 October — 5 November 2026**
+### Data Visualization Trainee - Excelerate
+**Remote | 5 October - 5 November 2026**
 
 Completed a four-week remote internship covering data profiling, statistical validation and Tableau dashboard development. Used Python and pandas to validate scholarship and summary statistics, built two Tableau visualisations incorporated into the final team dashboard, performed quality assurance across datasets and reports, and presented findings with an international team.
 
-### AI Data Analysis Insight Intern — Excelerate
-**Remote | 12 October — 12 November 2026**
+### AI Data Analysis Insight Intern - Excelerate
+**Remote | 12 October - 12 November 2026**
 
 Analysed an 8,558-record student-participation dataset with a seven-member international team. My individual contribution focused on probability scoring and predictive-model evaluation. I executed and checked an AI-assisted Python workflow, compared Logistic Regression, Random Forest and Gradient Boosting results, and documented model performance, limitations and recommendations for the final report and presentation.
 
@@ -50,7 +50,7 @@ https://github.com/Azile-cell/Resolve-IT
 ---
 
 ## UJ Compass
-**UJ DevSoc Hackathon 2026 — Team Lead**
+**UJ DevSoc Hackathon 2026 - Team Lead**
 
 Initiated and led a **four-member team of first-time hackathon participants** to develop a student-support prototype focused on service routing, support requests, digital queues and easier access to campus services.
 
@@ -182,7 +182,7 @@ https://github.com/Azile-cell/-datacamp-sql-video-games-project
 
 ## Bachelor of Commerce in Information Systems
 **University of Johannesburg**  
-2025 — Expected 2027
+2025 - Expected 2027
 
 ---
 
@@ -191,13 +191,13 @@ https://github.com/Azile-cell/-datacamp-sql-video-games-project
 Selected certifications and programmes:
 
 - **Microsoft Certified: Azure Data Fundamentals (DP-900)**
-- **Power BI Data Analyst Course — NEMISA**
+- **Power BI Data Analyst Course - NEMISA**
 - **CAPACITI AI Skills Acceleration Programme**
-- **Deloitte Australia Data Analytics Job Simulation — Forage**
-- **Google AI Essentials — Google / Coursera**
-- **Foundational C# with Microsoft — freeCodeCamp / Microsoft**
-- **Intermediate Importing Data in Python — DataCamp**
-- **AI Fluency for Students — Anthropic**
+- **Deloitte Australia Data Analytics Job Simulation - Forage**
+- **Google AI Essentials - Google / Coursera**
+- **Foundational C# with Microsoft - freeCodeCamp / Microsoft**
+- **Intermediate Importing Data in Python - DataCamp**
+- **AI Fluency for Students - Anthropic**
 - **Entelect Hack<IT> Community Cup 2026**
 
 Additional credential links are available on my live portfolio.
