@@ -20,14 +20,17 @@ I am currently strengthening my skills in **Python, cloud technologies and busin
 
 ---
 
-## Current Experience
+## Experience
 
 ### Data Visualization Trainee — Excelerate
-**Remote | Oct 2026 — Present**
+**Remote | 5 October — 5 November 2026**
 
-Currently completing a virtual Data Visualization internship focused on developing practical experience in **data analysis, visual communication and business-focused reporting**.
+Completed a four-week remote internship covering data profiling, statistical validation and Tableau dashboard development. Used Python and pandas to validate scholarship and summary statistics, built two Tableau visualisations incorporated into the final team dashboard, performed quality assurance across datasets and reports, and presented findings with an international team.
 
-This section will be updated as I complete project work and deliverables during the internship.
+### AI Data Analysis Insight Intern — Excelerate
+**Remote | 12 October — 12 November 2026**
+
+Analysed an 8,558-record student-participation dataset with a seven-member international team. My individual contribution focused on probability scoring and predictive-model evaluation. I executed and checked an AI-assisted Python workflow, compared Logistic Regression, Random Forest and Gradient Boosting results, and documented model performance, limitations and recommendations for the final report and presentation.
 
 ---
 
@@ -84,7 +87,7 @@ https://github.com/Azile-cell/AI-Productivity-Assistant
 
 # Additional Projects
 
-## Waterwatch AI
+## WaterWatch AI
 **UJ × Vodacom × AWS AI for Africa Challenge | Oct 2026**
 
 Collaborative municipal water-network prototype. I contributed to **frontend/UI direction, user workflows, responsible AI considerations, product research and Git/GitHub documentation**.
@@ -96,16 +99,6 @@ AWS-related tools, Git, GitHub, VS Code, frontend technologies
 https://github.com/Bathabile-Legodi/Generative-Coders-Waterwatch-AI
 
 > Collaborative team project hosted on a teammate's GitHub account.
-
----
-
-## Fikelela
-**Geekulcha Hackathon Application — Team Lead & Prototype Developer**
-
-Led a student team through the Sonke application process, coordinated onboarding and application requirements, completed the business canvas and independently developed the demonstration prototype.
-
-**Repository:**  
-https://github.com/Azile-cell/-Fikelela
 
 ---
 
@@ -146,7 +139,8 @@ https://github.com/Azile-cell/-datacamp-sql-video-games-project
 - .NET
 - JavaScript
 - TypeScript
-- Python — developing
+- Python — developing through practical analysis work
+- pandas
 
 ### Data & Business Intelligence
 - SQL
@@ -154,8 +148,15 @@ https://github.com/Azile-cell/-datacamp-sql-video-games-project
 - SQL Server Management Studio
 - Microsoft Excel
 - Power BI
+- Tableau
+- Power Query
 - Data Analysis
 - Data Visualisation
+- Data Profiling and Quality Assurance
+- Exploratory Data Analysis
+- Descriptive Statistics
+- Predictive Modelling Fundamentals
+- Model Evaluation and Probability Scoring
 
 ### Web
 - HTML
@@ -171,6 +172,7 @@ https://github.com/Azile-cell/-datacamp-sql-video-games-project
 - GitHub
 - Visual Studio
 - Visual Studio Code
+- Google Colab
 - Vercel
 - Jira
 

@@ -647,14 +647,6 @@ body { font-family: Inter, 'Segoe UI', Arial, sans-serif; }
 .smaller-project-grid .project-card h3 { font-size: 23px; }
 .smaller-project-grid .project-card .project-media { height: 160px; aspect-ratio: auto; }
 .smaller-project-grid .project-card p { font-size: 12.5px; }
-.fikelela-art { background: linear-gradient(130deg,#054c52,#1a9184); display: grid; place-items: center; padding: 15px; }
-.fikelela-frame { background: #f4f8f5; color: #153d37; padding: 12px; width: min(88%,230px); border-radius: 8px; box-shadow: 0 10px 35px rgba(0,0,0,.2); transform: rotate(-2deg); }
-.fikelela-frame > span { font-weight: 850; font-size: 19px; }
-.fikelela-search { background: #fff; color: #6a837f; border: 1px solid #bdd2cd; font-size: 8px; padding: 8px; display: flex; justify-content: space-between; border-radius: 6px; margin-top: 12px; }
-.fikelela-filters { display: flex; gap: 3px; margin-top: 8px; }
-.fikelela-filters i { display: inline-block; font-size: 6px; font-style: normal; background: #d2ece7; border-radius: 20px; padding: 5px; }
-.fikelela-lines b { display: block; height: 5px; background: #d8e2e0; width: 90%; margin-top: 8px; border-radius: 5px; }
-.fikelela-lines b + b { width: 60%; margin-top: 5px; }
 .sql-art { background: #0d1d31; }
 .skills-layout { grid-template-columns: repeat(2,minmax(0,1fr)); }
 .skill-card { min-height: 185px; }
@@ -831,6 +823,69 @@ body { font-family: Inter, 'Segoe UI', Arial, sans-serif; }
 }
 
 
+/* Real project screenshots: preserve their original colours and full composition. */
+.project-card .project-media.project-screenshot {
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    aspect-ratio: auto;
+    padding: 0;
+    background: #050d18;
+}
+
+.project-card .project-media.project-screenshot-light {
+    background: #ffffff;
+}
+
+.project-card .project-media.project-screenshot img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+    object-position: center;
+    filter: none;
+    transform: none;
+}
+
+
+/* Cross-browser mobile safeguards, including Safari on iOS. */
+html {
+    width: 100%;
+    max-width: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+@supports (overflow: clip) {
+    html,
+    body {
+        overflow-x: clip;
+    }
+}
+
+.shell,
+.nav,
+.hero-grid,
+.hero-copy,
+.hero-aside,
+.hero-cards,
+.glass-card,
+.project-card,
+.workflow-window {
+    min-width: 0;
+    max-width: 100%;
+}
+
+
 
 /* Display two skill cards per row */
 #skills .skills-layout {
@@ -850,6 +905,56 @@ body { font-family: Inter, 'Segoe UI', Arial, sans-serif; }
 @media (max-width: 760px) {
     #skills .skills-layout {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 650px) {
+    .hero .hero-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .hero .direction-card {
+        display: flex;
+        flex-direction: column;
+        min-height: 0;
+        padding: 22px;
+    }
+
+    .hero .direction-card .mini-label {
+        order: 1;
+        align-self: flex-start;
+    }
+
+    .hero .direction-card h2 {
+        order: 2;
+        max-width: 100%;
+        font-size: clamp(28px, 8vw, 34px);
+        line-height: 1.12;
+    }
+
+    .hero .direction-card p {
+        order: 3;
+        max-width: 100%;
+    }
+
+    .hero .direction-orb {
+        order: 4;
+        position: relative;
+        inset: auto;
+        align-self: flex-end;
+        flex: 0 0 126px;
+        width: 126px;
+        height: 126px;
+        margin-top: 18px;
+        opacity: .5;
+        transform: none;
+    }
+
+    .project-card .project-media.project-screenshot {
+        width: 100%;
+        height: auto;
+        min-height: 0;
+        aspect-ratio: auto;
     }
 }
 
