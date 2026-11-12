@@ -1,4 +1,4 @@
-# Azile Gomomo — Portfolio
+# Azile Gomomo - Portfolio
 
 BCom Information Systems student at the **University of Johannesburg** and **Microsoft Certified: Azure Data Fundamentals (DP-900)**.
 
