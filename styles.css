@@ -959,3 +959,12 @@ body {
 }
 
 
+/* Wider More Projects cards on desktop */
+@media (min-width: 861px) {
+  .smaller-project-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+
+
